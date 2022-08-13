@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#heading {
+  padding: 20px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: larger;
+  padding: 10px;
+  border: 3px solid rgb(132, 47, 211);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: rgb(189, 159, 216);
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  background-color: transparent;
+  outline: none;
+}
+
+input:hover {
+  border: none;
+  border-color: rgb(73, 31, 112);
+  border-bottom: 2px solid rgb(73, 31, 112);
+}
+
+.commentDiv {
+  padding: 10px 3px;
+  border: 2px solid rgb(73, 31, 112);
+  border-radius: 10px;
+  box-shadow: 20px 20px 50px rgb(163, 138, 187);
+  margin: 10px;
+}
+
+.commentPara {
+  font-size: 25px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.commentLikes {
+  font-size: 20px;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+#reply {
+  display: inline;
+}
+
+.likeBtn {
+  padding: 10px 25px;
+  border-color: rgb(26, 219, 26);
+}
+
+.likeBtn:hover {
+  background-color: rgb(105, 224, 105);
+}
+
+.delBtn {
+  padding: 10px 25px;
+  border-color: rgb(230, 38, 38);
+}
+
+.delBtn:hover {
+  background-color: rgb(226, 132, 132);
+}
+
+h3 {
+  flex: wrap;
+}
+
+/* #reply {
+  display: inline;
+} */
+
+.replyBtn {
+  padding: 10px 25px;
+}
+
+body {
+  margin: 5px 15px;
+  background-image: url(images/img.jpg);
+}
+
+button {
+  margin: 10px;
+}
